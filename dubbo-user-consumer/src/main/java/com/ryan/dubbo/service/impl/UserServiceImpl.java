@@ -4,11 +4,19 @@ import com.ryan.dubbo.bean.Movie;
 import com.ryan.dubbo.bean.Order;
 import com.ryan.dubbo.bean.User;
 import com.ryan.dubbo.service.MovieService;
-import com.ryan.dubbo.service.UserInterface;
+import com.ryan.dubbo.service.UserService;
 
-public class UserServiceImpl implements UserInterface {
+public class UserServiceImpl implements UserService {
 
     MovieService movieService;
+
+    public MovieService getMovieService() {
+        return movieService;
+    }
+
+    public void setMovieService(MovieService movieService) {
+        this.movieService = movieService;
+    }
 
     @Override
     public Order buyNewMovie(User user) {

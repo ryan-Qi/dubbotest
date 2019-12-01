@@ -1,6 +1,8 @@
 package com.ryan.dubbo.bean;
 
-public class Movie {
+import java.io.Serializable;
+
+public class Movie implements Serializable {
     private Integer id;
     private String movieName;
     private Double price;

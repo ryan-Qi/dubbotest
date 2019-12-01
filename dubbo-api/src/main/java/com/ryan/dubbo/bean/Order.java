@@ -1,6 +1,8 @@
 package com.ryan.dubbo.bean;
 
-public class Order {
+import java.io.Serializable;
+
+public class Order implements Serializable {
     private Integer movieId;
     private String movieName;
     private String userName;
