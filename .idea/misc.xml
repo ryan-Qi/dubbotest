@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-movie-provider-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-user-consumer-boot/pom.xml" />
       </list>
     </option>
   </component>
