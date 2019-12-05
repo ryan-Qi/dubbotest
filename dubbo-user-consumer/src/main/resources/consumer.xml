@@ -8,7 +8,7 @@
     <dubbo:application name="dubbo-user-consumer"/>
 
     <!-- 使用multicast广播注册中心暴露服务地址 -->
-    <dubbo:registry address="zookeeper://192.168.68.160:2181" />
+    <dubbo:registry address="zookeeper://47.240.50.2:2181" />
 
     <!-- 声明要调用的服务 -->
     <dubbo:reference id="movieService" interface="com.ryan.dubbo.service.MovieService" />
